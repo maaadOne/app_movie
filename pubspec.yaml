@@ -1,0 +1,31 @@
+name: app_movie
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^7.0.1
+  equatable: ^2.0.3
+  http: ^0.13.3
+  rxdart: ^0.27.1
+  cached_network_image: ^3.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/placeholder.jpg
+  fonts:
+    - family: Jost
+      fonts:
+        - asset: assets/fonts/Jost-Bold.ttf
+        - asset: assets/fonts/Jost-ExtraLight.ttf
+        - asset: assets/fonts/Jost-Light.ttf
+        - asset: assets/fonts/Jost-Regular.ttf
+        - asset: assets/fonts/Jost-Semibold.ttf
